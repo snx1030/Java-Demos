@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>spring-family</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>redisMessageListener</module>
+        <module>helloworld</module>
+        <module>datasource-demo</module>
+        <module>declarative-transaction-demo</module>
+        <module>druid-demo</module>
+        <module>errorcode-demo</module>
+        <module>multi-datasource-demo</module>
+        <module>programmatic-transaction-demo</module>
+        <module>pure-spring-datasource-demo</module>
+        <module>simple-jdbc-demo</module>
+        <module>cache-demo</module>
+        <module>cache-with-redis-demo</module>
+        <module>jedis-demo</module>
+        <module>jpa-complex-demo</module>
+        <module>jpa-demo</module>
+        <module>mongo-demo</module>
+        <module>mongo-repository-demo</module>
+        <module>mybatis-demo</module>
+        <module>mybatis-generator-demo</module>
+        <module>mybatis-pagehelper-demo</module>
+        <module>redis-repository-demo</module>
+        <module>springbucks</module>
+        <module>redis-reactive-demo</module>
+        <module>redis-demo</module>
+        <module>performance-aspect-demo</module>
+        <module>r2dbc-repository-demo</module>
+        <module>reactive-springbucks</module>
+        <module>simple-r2dbc-demo</module>
+        <module>simple-reactor-demo</module>
+        <module>mongodb-demo</module>
+        <module>thymeleaf-view-demo</module>
+        <module>context-hierarchy-demo</module>
+        <module>exception-demo</module>
+        <module>performance-Inteceptor-demo</module>
+        <module>webclient-demo</module>
+        <module>advanced-resttemplate-demo</module>
+        <module>webflux-waiter-service</module>
+        <module>session-demo</module>
+        <module>hateoas-customer-service</module>
+        <module>hateoas-waiter-service</module>
+        <module>autoconfigure-demo</module>
+        <module>greeting</module>
+        <module>geektime-autoconfigure-backport</module>
+        <module>geektime-spring-boot-starter</module>
+        <module>geektime-spring-boot-autoconfigure</module>
+        <module>property-source-demo</module>
+        <module>command-line-demo</module>
+        <module>docker-demo</module>
+        <module>http2-customer-service</module>
+        <module>http2-waiter-service</module>
+        <module>prometheus-indicator-demo</module>
+        <module>sba-client-demo</module>
+        <module>sba-server-demo</module>
+        <module>ssl-customer-service</module>
+        <module>ssl-waiter-service</module>
+        <module>jar-demo</module>
+        <module>metrics-demo</module>
+        <module>tomcat-demo</module>
+    </modules>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.1.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+
+</project>
