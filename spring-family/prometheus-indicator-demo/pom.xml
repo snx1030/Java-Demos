@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>geektime.spring.springbucks</groupId>
-	<artifactId>prometheus-demo</artifactId>
+	<artifactId>prometheus-indicator-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>prometheus-demo</name>
+	<name>prometheus-indicator-demo</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

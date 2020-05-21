@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>geektime.spring.boot</groupId>
-	<artifactId>sba-server</artifactId>
+	<artifactId>sba-server-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sba-server</name>
+	<name>sba-server-demo</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

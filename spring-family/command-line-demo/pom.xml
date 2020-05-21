@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>geektime.spring.hello</groupId>
-	<artifactId>command-line</artifactId>
+	<artifactId>command-line-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>command-line</name>
+	<name>command-line-demo</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

@@ -67,6 +67,41 @@
         <module>jar-demo</module>
         <module>metrics-demo</module>
         <module>tomcat-demo</module>
+        <module>consul-customer-service</module>
+        <module>consul-waiter-service</module>
+        <module>eureka-waiter-service</module>
+        <module>feign-customer-service</module>
+        <module>fixed-discovery-client-demo</module>
+        <module>nacos-customer-service</module>
+        <module>nacos-waiter-service</module>
+        <module>ribbon-customer-service</module>
+        <module>zk-customer-service</module>
+        <module>zk-waiter-service</module>
+        <module>bulkhead-customer-service</module>
+        <module>circuit-break-demo</module>
+        <module>hystrix-customer-service</module>
+        <module>hystrix-dashboard-demo</module>
+        <module>hystrix-stream-customer-service</module>
+        <module>ratelimiter-waiter-service</module>
+        <module>resilience4j-circuitbreaker-demo</module>
+        <module>turbine-demo</module>
+        <module>consul-config-waiter-service</module>
+        <module>git-config-waiter-service</module>
+        <module>zk-config-waiter-service</module>
+        <module>nacos-config-waiter-service</module>
+        <module>busy-waiter-service</module>
+        <module>lazy-customer-service</module>
+        <module>kafka-barista-service</module>
+        <module>kafka-waiter-service</module>
+        <module>scheduled-customer-service</module>
+        <module>rabbitmq-barista-service</module>
+        <module>rabbitmq-waiter-service</module>
+        <module>final-barista-service</module>
+        <module>final-customer-service</module>
+        <module>final-waiter-service</module>
+        <module>sleuth-customer-service</module>
+        <module>sleuth-waiter-service</module>
+        <module>mq-zipkin-barista-service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
