@@ -41,8 +41,6 @@ public class complexSort {
         collect.forEach(
                 user -> System.out.println(user.getAge()+":" +user.getBirthday().getTime())
         );
-
-
     }
 
 
